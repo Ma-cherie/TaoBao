@@ -349,6 +349,7 @@ html,body{
 }
 /* End screen-nav */
 
+
 /*screen-box 中间大盒子 */
 .screen-box-wrap{
 	width: 1190px;
@@ -358,6 +359,7 @@ html,body{
 }
 /*screen-box left-box*/
 .screen-box-wrap .left-box{
+	float: left;
 	width: 190px;
 	height: 522px;
 	border: 1px solid #ff5000;
@@ -398,10 +400,60 @@ html,body{
 	right: 10px;
 }
 /*End left-box*/
+/*screen-box middle-box*/
 .screen-box-wrap .middle-box{
-	width: 520px;
+	float: left;
+	width: 690px;
 	height: 512px;
 	margin-top: 10px;
 	margin-left: 10px;
 	border: 1px solid black;
 }
+.screen-box-wrap .middle-box .middle-box-l{
+	float: left;
+	width: 520px;
+	height: 512px;
+}
+.screen-box-wrap .middle-box .middle-box-l .upper{
+	width: 520px;
+	height: 280px;
+}
+.screen-box-wrap .middle-box .middle-box-l .lower{
+	width: 520px;
+	height: 230px;
+}
+.screen-box-wrap .middle-box .middle-box-l .lower .title{
+	width: 520px;
+	height: 18px;
+	margin-top: 10px;
+	border-bottom: 3px solid #ff1648;
+}
+.screen-box-wrap .middle-box .middle-box-l .lower .title em{
+	font-size: 12px;
+	color: #666;
+}
+.screen-box-wrap .middle-box .middle-box-l .image-box {
+	width: 520px;
+	height: 160px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	overflow: hidden;
+	position: relative;
+}
+.screen-box-wrap .middle-box .middle-box-r{
+	float: left;
+	width: 160px;
+	height: 512px;
+	margin-left: 5px;
+	background: #f1f1f1;
+}
+.screen-box-wrap .middle-box .middle-box-r .title{
+	font-size: 12px;
+    font-weight: 400;
+    background: #f1f1f1;
+    color: #a1a1a1;
+    line-height: 24px;
+    padding-top: 6px;
+}
+/*End middle-box*/
+
